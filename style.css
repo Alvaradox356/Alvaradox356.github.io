@@ -12111,6 +12111,38 @@ legend {
     color: inherit;
 }
 
-article>img{
-    width: 400px;
+#inicio>img{
+    width: 200px;
+    display: block;
+    margin: auto;
+}
+#tab1>img{
+    height: 200px;
+    display: block;
+    margin: auto;
+}
+#tab2>img{
+    height: 300px;
+    display: block;
+    margin: auto;
+}
+#tab3>img{
+    height: 300px;
+    display: block;
+    margin: auto;
+}
+#tab4>video{
+    height: 300px;
+    display: block;
+    margin: auto;
+}
+#tab4>img{
+    height: 300px;
+    display: block;
+    margin: auto;
+}
+#tab5>img{
+    height: 300px;
+    display: block;
+    margin: auto;
 }
