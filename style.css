@@ -3,19 +3,11 @@
     padding: 0;
 }
 
-.contenido {
-    padding-top: 80px;
-}
 
-.menu {
-    width: 80%;
-    margin: auto;
-    overflow: hidden;
-}
 
 header {
     width: 100%;
-    overflow: hidden;
+    position: fixed;
     background: rgba(94, 93, 83, 0.9);
     z-index: 10;
 }
@@ -25,6 +17,7 @@ header {
     max-width: 1000px;
     margin: auto;
     overflow: hidden;
+
 }
 
 .wrap {
@@ -37,14 +30,13 @@ header .logo {
 
     color: #f2f2f2;
     font-size: 40px;
-    line-height: 200px;
     float: left;
 }
 
 
 header .foto {
-    width: 90px;
-    height: 90px;
+    width: 80px;
+    height: 80px;
     border-radius: 50px;
 
 
@@ -59,10 +51,11 @@ header .tabs {
 ul.tabs {
     list-style: none;
     display: flex;
+    overflow: hidden;
 }
 
 header .tabs a {
-    display: inline-block;
+    display: block;
     color: #fff;
     list-style: none;
     text-decoration: none;
@@ -73,6 +66,7 @@ header .tabs a {
     -webkit-transition: all 500ms ease;
     -o-transition: all 500ms ease;
     transition: all 500ms ease;
+    padding: 20px;
 }
 
 header .tabs a:hover {
@@ -81,10 +75,15 @@ header .tabs a:hover {
 }
 
 
+.contenido {
+
+    padding-top: 100px;
+
+}
 
 .header2 .logo {
-    line-height: 100px;
-    font-size: 30px;
+    line-height: 90px;
+    font-size: 20px;
 }
 
 .header2 .tabs {
@@ -124,6 +123,11 @@ ul.tabs li a .tab-text {
 .active {
     background: #2943b8;
 }
+
+.contenido {
+    padding-top: 80px;
+}
+
 
 @media screen and (max-width:950px) {
 
@@ -12105,4 +12109,8 @@ legend {
 .list-group-item h5,
 .list-group-item h6 {
     color: inherit;
+}
+
+article>img{
+    width: 400px;
 }
